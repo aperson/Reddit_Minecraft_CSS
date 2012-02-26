@@ -1,0 +1,506 @@
+ a[href$="/spoiler"] { background: #000 !important; color: #000 !important } a[href$="/spoiler"]:hover { color: #FFF !important } div.usertext-body table { width: 90% } div.usertext-body table td, div.usertext-body table th { border: 1px solid #888; font-size: 0.8em }
+
+/* rnbws design I'm somewhat implementing to mix things up a bit */
+.tabmenu li a {
+    color: #ffffff !important;
+    background-color: #454545 !important;
+    border-left-color: #000000 !important;
+    border-top-color: #000000 !important;
+    border-right-color: #000000 !important;
+}
+#header {
+    border-bottom-color: #000000;
+}
+#sr-header-area {
+    color: #ffffff;
+    background-color: #454545;
+    border-bottom-color: #000000;
+}
+#header-bottom-right,  #header-bottom-right a, .sr-bar a, #sr-more-link { 
+    background-color: rgb(69, 69, 69) !important;
+    color: rgb(255, 255, 255) !important;
+}
+#userbarToggle { 
+    background-color: rgb(69, 69, 69) !important;
+    border-right-color: rgb(0, 0, 0) !important;
+}
+.tabmenu li.selected a { 
+    background-color: rgb(255, 255, 255) !important;
+    color: rgb(255, 69, 0) !important;
+}
+.user, #userbarToggle {
+    color: #ffffff;
+}
+.user a.login-required {
+    text-decoration: underline;
+}
+
+/* This changes the birthday cake to a minecraft one: */
+.recent-trophywinner img {
+    content: "";
+    width: 0px;
+    height: 16px;
+    background: url(%%items%%) no-repeat scroll -9999px -9999px transparent;
+    background-position: -207px -16px;
+    text-indent: -9999px;
+    padding-top: 0px;
+    padding-right: 18px;
+    padding-bottom: 1px;
+    margin-top: 0px;
+    margin-bottom: -6px;
+    display: inline-block;
+}
+/* Tournament stuff ahead: */
+/* .id-t3_oqaag {background: #F6E69F;border: 1px solid #FFA500;} */
+
+.pagename {
+    font-size: 12pt
+    }
+/* UNCOMMENT FOR AN ANNOUNCEMENT
+.content {
+    margin-top: 40px
+    }
+.titlebox .usertext-body .md ol li a:hover {
+    background:#999;
+    color:white;
+    }
+.pagename {
+    font-size: 12pt
+    }
+.titlebox form {
+    position: static
+    }
+.titlebox .usertext-body .md ol {
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    margin: 0px;
+    margin-top: 4px;
+    padding: 0px;
+    display: inline-block;
+    list-style-type: none
+    }
+.titlebox .usertext-body .md ol li a {
+    background-color:white;
+    font-family: verdana, sans-serif;
+    font-weight: 900;
+    font-size: 12px;
+    color: #F73;
+    text-align: left;
+    padding: 3px 5px 3px 5px;
+    margin: 0px;
+    text-decoration: none;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    }
+.titlebox .usertext-body .md ol li a:last-child {
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-right: 0px;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    border-right:1px solid black;
+    }
+.titlebox .usertext-body .md ol li:hover a:first-child {
+background:white;
+cursor:default;
+    }
+.titlebox .usertext-body .md ol li strong {
+background:black;
+color:black;
+border-top:1px solid black;
+border-bottom:1px solid black;
+padding-top:3px;
+padding-bottom:3px;
+}
+
+END UNCOMMENT */
+
+/* Report button hover thingy */
+.report-button > span.option.error:before {
+   content: "Does this break the subreddit rules? ";
+}
+/* Sidebar Test Below */
+
+.titlebox blockquote {
+    border: 1px solid #AAA;
+    text-shadow: 0 1px 0 white;
+    background-repeat: repeat-x;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 0.85em;
+    color: #777;
+    font-weight: bold;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px
+    }
+
+/* New submission header */
+#newlink:before {
+    content: "Read the rules before posting!";
+    background-color: #F6E69F;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16pt;
+    font-weight: 600;
+    border: 1px solid #FFA500;
+    font-style: italic;
+}
+
+/* Changes the 'this post was created on' text */
+.linkinfo:before {
+    content: "This post was crafted on:";
+    position: absolute;
+    background-color: #EFF7FF;
+    padding: 0px;
+    padding-right: 1em;
+    margin: 0px;
+}
+
+#header {
+ background-color:#CCCCCC;
+ background-image:url(%%rock%%);
+}
+#header-bottom-right {
+ background-color:#E9E0DB;
+ }
+
+.redditname a
+{
+  color: #FFF;
+}
+
+.redditname a:after
+{
+    content: "";
+    color:orange;
+    font-size:1em;
+}
+
+body
+{
+  background-image:url(%%creeperbg-transparent%%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 70% 100%;
+} 
+    
+    /* mail */
+#mail {
+    position: relative;
+    display: inline-block;
+    text-indent: -9999px;
+    overflow: hidden;
+    width: 15px;
+    height: 10px;
+}
+
+#mail.havemail {
+    background:url(%%mail2%%);
+}
+/* Change the description of "subscribers"*/
+div.titlebox span.word {
+    display: none
+    }
+div.titlebox span.number:after {
+    content: " miners."
+    }
+div.titlebox span.number:before {
+    content: "The legion of  "
+    }
+
+    /*User Tags*/
+a.author[href$="/AlLnAtuRalX"]:after{
+    content: "?";
+    }
+
+
+a.author[href$="/tayworm"]:after,a.author[href$="/armchairnixon"]:after,a.author[href$="/lego-banana"]:after,a.author[href$="/TaviRider"]:after,a.author[href$="/cecilkorik"]:after,a.author[href$="/nullpacket"]:after,a.author[href$="/squatly"]:after,a.author[href$="/jakemcgraw"]:after,a.author[href$="/shawnsonium"]:after,a.author[href$="/cablemonkey"]:after,a.author[href$="/Bales75"]:after,a.author[href$="/CmdrTebok"]:after,a.author[href$="/forty_two"]:after,a.author[href$="/trevorsutton"]:after,a.author[href$="/pettazz"]:after,a.author[href$="/anonymouse91"]:after,a.author[href$="/Mark"]:after,a.author[href$="/Garrett"]:after,a.author[href$="/Jesse"]:after,a.author[href$="/TheQuietOne"]:after,a.author[href$="/William"]:after,a.author[href$="/Herobrine"]:after,a.author[href$="/Joseph"]:after,a.author[href$="/lenaro"]:after,a.author[href$="/Skuld"]:after,a.author[href$="/Alvaro"]:after,a.author[href$="/Trinette"]:after,a.author[href$="/Ginger"]:after,a.author[href$="/AlLnAtuRalX"]:after,a.author[href$="/Daychilde"]:after,a.author[href$="/draggin_low"]:after,a.author[href$="/Cablemonkey"]:after,a.author[href$="/sstrickl"]:after,a.author[href$="/golf1052"]:after,a.author[href$="/CousinMosquito"]:after,a.author[href$="/Lord_Munkee"]:after,a.author[href$="/jcll"]:after,a.author[href$="/rossberry"]:after,a.author[href$="/adrianp"]:after,a.author[href$="/p0sco"]:after,a.author[href$="/theCroc"]:after,a.author[href$="/Lagrange"]:after,a.author[href$="/cattrain"]:after,a.author[href$="/Lampjaw"]:after,a.author[href$="/SuitableUsername"]:after,a.author[href$="/ArcadeStorm"]:after,a.author[href$="/justawhale"]:after,a.author[href$="/fazaden"]:after,a.author[href$="/ThatsANiceEverything"]:after,a.author[href$="/silentbob583"]:after,a.author[href$="/greenboy919"]:after,a.author[href$="/AtheistAgnostic"]:after,a.author[href$="/mikereads"]:after,a.author[href$="/p4nny"]:after,a.author[href$="/BFKelleher"]:after,a.author[href$="/jupiter3888"]:after,a.author[href$="/Ahtna"]:after,a.author[href$="/cthulhu_zuul"]:after,a.author[href$="/bsheairs"]:after,a.author[href$="/Flannel_Man"]:aftera.author[href$="/AngryMathDave"]:after,a.author[href$="/Dvorak42"]:after,a.author[href$="/Laughing_man"]:after,a.author[href$="/Nix725"]:after,a.author[href$="/AngryMathDave"]:after,a.author[href$="/DJ-Anakin"]:after,a.author[href$="/pspkicks316"]:after,a.author[href$="/pspkicks316"]:after,a.author[href$="/tmbridge"]:after,a.author[href$="/Sycosys"]:after,a.author[href$="/Leading_Man_Parts"]:after,a.author[href$="/vjness101"]:after,a.author[href$="/lifeofthunder"]:after,a.author[href$="/jk2323"]:after,a.author[href$="/daychilde"]:after,a.author[href$="/Zeropointeffect"]:after,a.author[href$="/pressertim"]:after,a.author[href$="/j0hn33y"]:after,a.author[href$="/X3Maverick"]:after,a.author[href$="/outwrangle"]:after,a.author[href$="/Dakewla"]:after,a.author[href$="/TurplePurtle"]:after,a.author[href$="/Eustis"]:after,a.author[href$="/klhinkle"]:after,a.author[href$="/PseudoBeard"]:after,a.author[href$="/Pharmboy_Andy"]:after,a.author[href$="/swytz"]:after,a.author[href$="/skug"]:after,a.author[href$="/shen"]:after,a.author[href$="/JesusTheCaffeine"]:after,a.author[href$="/Vietarmis"]:after,a.author[href$="/ThePwnStick"]:after,a.author[href$="/HolyZesto"]:after,a.author[href$="/SmudgeTheFirst"]:after,a.author[href$="/HolyZesto"]:after,a.author[href$="/BArmstrong"]:after,a.author[href$="/thatPaulBloke"]:after,a.author[href$="/Konryou"]:after,a.author[href$="/wilsonc11"]:after {
+margin-left: 3px !important;
+margin-bottom: 3px !important;
+content: url(%%turkey%%);
+}
+
+.comment .author[href$="/thatPaulBloke"]:hover:before,.comment .author[href$="/Konryou"]:hover:before,.comment .author[href$="/wilsonc11"]:hover:before,.comment .author[href$="/JesusTheCaffeine"]:hover:before,.comment .author[href$="/BArmstrong"]:hover:before,.comment .author[href$="/Vietarmis"]:hover:before,.comment .author[href$="/ThePwnStick"]:hover:before,.comment .author[href$="/HolyZesto"]:hover:before,.comment .author[href$="/SmudgeTheFirst"]:hover:before,.comment .author[href$="/HolyZesto"]:hover:before,.comment .author[href$="/klhinkle"]:hover:before,.comment .author[href$="/PseudoBeard"]:hover:before,.comment .author[href$="/Pharmboy_Andy"]:hover:before,.comment .author[href$="/swytz"]:hover:before,.comment .author[href$="/skug"]:hover:before,.comment .author[href$="/shen"]:hover:before,.comment .author[href$="/pspkicks316"]:hover:before,.comment .author[href$="/Eustis"]:hover:before,.comment .author[href$="/TurplePurtle"]:hover:before,.comment .author[href$="/Dakewla"]:hover:before,.comment .author[href$="/tmbridge"]:hover:before,.comment .author[href$="/Sycosys"]:hover:before,.comment .author[href$="/Leading_Man_Parts"]:hover:before,.comment .author[href$="/vjness101"]:hover:before,.comment .author[href$="/lifeofthunder"]:hover:before,.comment .author[href$="/jk2323"]:hover:before,.comment .author[href$="/daychilde"]:hover:before,.comment .author[href$="/Zeropointeffect"]:hover:before,.comment .author[href$="/pressertim"]:hover:before,.comment .author[href$="/j0hn33y"]:hover:before,.comment .author[href$="/X3Maverick"]:hover:before,.comment .author[href$="/outwrangle"]:hover:before,.comment .author[href$="/Flannel_Man"]:hover:before,.comment .author[href$="/AngryMathDave"]:hover:before,.comment .author[href$="/Dvorak42"]:hover:before,.comment .author[href$="/Laughing_man"]:hover:before,.comment .author[href$="/Nix725"]:hover:before,.comment .author[href$="/AngryMathDave"]:hover:before,.comment .author[href$="/DJ-Anakin"]:hover:before,.comment .author[href$="/pspkicks316"]:hover:before,.comment .author[href$="/bsheairs"]:hover:before,.comment .author[href$="/cthulhu_zuul"]:hover:before,.comment .author[href$="/Ahtna"]:hover:before,.comment .author[href$="/jupiter3888"]:hover:before,.comment .author[href$="/BFKelleher"]:hover:before,.comment .author[href$="/p4nny"]:hover:before,.comment .author[href$="/mikereads"]:hover:before,.comment .author[href$="/AtheistAgnostic"]:hover:before,.comment .author[href$="/greenboy919"]:hover:before,.comment .author[href$="/silentbob583"]:hover:before,.comment .author[href$="/ThatsANiceEverything"]:hover:before,.comment .author[href$="/armchairnixon"]:hover:before,.comment .author[href$="/kinghfb"]:hover:before,.comment .author[href$="/lego-banana"]:hover:before, .comment .author[href$="/sirmalloc"]:hover:before, .comment .author[href$="/roastnewt"]:hover:before, .comment .author[href$="/TaviRider"]:hover:before, .comment .author[href$="/cecilkorik"]:hover:before, .comment .author[href$="/nullpacket"]:hover:before, .comment .author[href$="/squatly"]:hover:before, .comment .author[href$="/jakemcgraw"]:hover:before, .comment .author[href$="/shawnsonium"]:hover:before, .comment .author[href$="/cablemonkey"]:hover:before, .comment .author[href$="/Bales75"]:hover:before, .comment .author[href$="/CmdrTebok"]:hover:before, .comment .author[href$="/forty_two"]:hover:before, .comment .author[href$="/trevorsutton"]:hover:before, .comment .author[href$="/pettazz"]:hover:before, .comment .author[href$="/anonymouse91"]:hover:before, .comment .author[href$="/Mark"]:hover:before, .comment .author[href$="/Garrett"]:hover:before, .comment .author[href$="/Jesse"]:hover:before, .comment .author[href$="/TheQuietOne"]:hover:before, .comment .author[href$="/William"]:hover:before, .comment .author[href$="/Herobrine"]:hover:before, .comment .author[href$="/Joseph"]:hover:before, .comment .author[href$="/lenaro"]:hover:before, .comment .author[href$="/Skuld"]:hover:before, .comment .author[href$="/Alvaro"]:hover:before, .comment .author[href$="/Trinette"]:hover:before, .comment .author[href$="/Ginger"]:hover:before, .comment .author[href$="/AlLnAtuRalX"]:hover:before, .comment .author[href$="/Daychilde"]:hover:before, .comment .author[href$="/draggin_low"]:hover:before, .comment .author[href$="/Cablemonkey"]:hover:before, .comment .author[href$="/sstrickl"]:hover:before, .comment .author[href$="/golf1052"]:hover:before, .comment .author[href$="/CousinMosquito"]:hover:before, .comment .author[href$="/Lord_Munkee"]:hover:before, .comment .author[href$="/jcll"]:hover:before, .comment .author[href$="/rossberry"]:hover:before, .comment .author[href$="/adrianp"]:hover:before, .comment .author[href$="/p0sco"]:hover:before, .comment .author[href$="/theCroc"]:hover:before, .comment .author[href$="/Lagrange"]:hover:before, .comment .author[href$="/cattrain"]:hover:before, .comment .author[href$="/Lampjaw"]:hover:before, .comment .author[href$="/SuitableUsername"]:hover:before, .comment .author[href$="/ArcadeStorm"]:hover:before, .comment .author[href$="/Ambiguous_comment"]:hover:before,  .comment .author[href$="/fazaden"]:hover:before {
+    content: "(Marathon Participant) "
+}
+
+.comment .author[href$="/muldoonaz"]:hover:before,.comment .author[href$="/ajdane"]:hover:before {
+    content: "(Server Donator) ";
+    }
+.comment .author[href$="/themangeraaad"]:hover:before,.comment .author[href$="/kinghfb"]:hover:before,.comment .author[href$="/jakemates"]:hover:before,.comment .author[href$="/roastnewt"]:hover:before {
+    content: "(Top Marathon Donator) ";
+    }
+.comment .author[href$="/MinecraftMosquito"]:hover:before {
+    content: "(Marathon Helper) ";
+    }
+.comment .author[href$="/Rainshadow_"]:hover:before {
+    content: "(Marathon DJ) ";
+    }
+
+.comment .author[href$="/sirmalloc"]:hover:before {
+    content: "(Tech Admin, Top Donor) ";
+    }
+
+.comment .author[href$="/Ambiguous_comment"]:hover:before {
+    content: "(Marathon Survivor) ";
+    }
+
+.comment .author[href$="/PhanTom74"]:hover:before {
+    content: "(Marathon Survivor) ";
+    }
+
+a.author[href$="/themangeraaad"]:after,a.author[href$="/PhanTom74"]:after,a.author[href$="/muldoonaz"]:after,a.author[href$="/kinghfb"]:after, a.author[href$="/ajdane"]:after, a.author[href$="/sirmalloc"]:after, a.author[href$="/roastnewt"]:after,a.author[href$="/jakemates"]:after,a.author[href$="/Rainshadow_"]:after,a.author[href$="/Ambiguous_comment"]:after,a.author[href$="/MinecraftMosquito"]:after{content: url(%%gturk%%); }
+
+/* Laikapants name is now backwards. */
+
+.comment .author[href$="/laikapants"] {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    }
+    
+    /* Spoiler Tags */
+a[href$="/spoiler"] {  
+background: #000 !important;  
+color: #000 !important  
+}  
+
+a[href$="/spoiler"]:hover {  
+color: #FFF !important  
+}  
+/* APRIL FOOLS GOES HERE */
+/* You're a dick, lol. <3 doctorsound */
+/*I added some. :D ~Starshell */
+/*
+a:hover
+{
+  direction: rtl;
+  unicode-bidi: bidi-override;
+  font-family: "Comic Sans MS", Georgia, sans-serif !important;
+  color: #FF00FF !important;
+  text-shadow: #FF00FF 0px -15px 0;
+}
+
+
+ .linklisting
+{
+  background-image:url(%%notchheadsmall%%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+} 
+*/
+/* APRIL FOOLS ENDS HERE */
+
+/* User flair stuffs: */
+.flair {
+    background: url(%%flair%%) no-repeat scroll -9999px -9999px transparent;
+    height: 16px;
+    vertical-align: middle;
+    width: 16px;
+    border: 0px;
+    text-indent: -9999px;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    padding: 0px !important;
+    margin-bottom: 2px;
+ }
+
+/* Show the flair text on hover */
+.flair:hover {
+    width: auto;
+    min-width: 16px;
+    text-indent: 18px;
+}
+
+.flair-rftw:hover {
+    background-color: #184E13 !important;
+    color: white;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.flair-blaze {
+    background-position: 0px 0px;
+}
+.flair-cavespider {
+    background-position: 0px -16px;
+}
+.flair-chicken {
+    background-position: 0px -32px;
+}
+.flair-cow {
+    background-position: 0px -48px;
+}
+.flair-creeper {
+    background-position: 0px -64px;
+}
+.flair-enderdragon {
+    background-position: 0px -80px;
+}
+.flair-enderman {
+    background-position: 0px -96px;
+}
+.flair-ghast {
+    background-position: 0px -112px;
+}
+.flair-steve {
+    background-position: 0px -128px;
+}
+.flair-magmacube {
+    background-position: 0px -144px;
+}
+.flair-mooshroom {
+    background-position: 0px -160px;
+}
+.flair-pig {
+    background-position: 0px -176px;
+}
+.flair-sheep {
+    background-position: 0px -192px;
+}
+.flair-silverfish {
+    background-position: 0px -208px;
+}
+.flair-skeleton {
+    background-position: 0px -224px;
+}
+.flair-slime {
+    background-position: 0px -240px;
+}
+.flair-snowgolem {
+    background-position: 0px -256px;
+}
+.flair-spider {
+    background-position: 0px -272px;
+}
+.flair-squid {
+    background-position: 0px -288px;
+}
+.flair-testificate {
+    background-position: 0px -304px;
+}
+.flair-wolf {
+    background-position: 0px -320px;
+}
+.flair-zombie {
+    background-position: 0px -336px;
+}
+.flair-zombiepigman {
+    background-position: 0px -352px;
+}
+.flair-mojang {
+    background-position: 0px -368px;
+}
+.flair-lightgraysheep {
+    background-position: 0px -384px;
+}
+.flair-graysheep {
+    background-position: 0px -400px;
+}
+.flair-blacksheep {
+    background-position: 0px -416px;
+}
+.flair-brownsheep {
+    background-position: 0px -432px;
+}
+.flair-pinksheep {
+    background-position: 0px -448px;
+}
+.flair-redsheep {
+    background-position: 0px -464px;
+}
+.flair-orangesheep {
+    background-position: 0px -480px;
+}
+.flair-yellowsheep {
+    background-position: 0px -496px;
+}
+.flair-limesheep {
+    background-position: 0px -512px;
+}
+.flair-greensheep {
+    background-position: 0px -528px;
+}
+.flair-lightbluesheep {
+    background-position: 0px -544px;
+}
+.flair-cyansheep {
+    background-position: 0px -560px;
+}
+.flair-bluesheep {
+    background-position: 0px -576px;
+}
+.flair-purplesheep {
+    background-position: 0px -592px;
+}
+.flair-magentasheep {
+    background-position: 0px -608px;
+}
+.flair-ozelot {
+    background-position: 0px -624px;
+}
+.flair-catsiamese {
+    background-position: 0px -640px;
+}
+.flair-catred {
+    background-position: 0px -656px;
+}
+.flair-catblack {
+    background-position: 0px -672px;
+}
+.flair-rftw {
+    background-position: 0px -688px;
+}
+.flair-redstonehelper {
+    background-position: 0px -704px;
+}
+.flair-painting {
+    background-position: 0px -720px;
+}
+.flair-bukkit {
+    background-position: 0px -736px;
+}
+/* Things Skuld did and labeled poorly */
+
+.titlebox a[href="/n0lat"]:after {
+    content: "";
+    width: 300px;
+    height: 100px;
+    background-image: url(%%rfw%%);
+    display: inline-block;
+    position: relative
+    }
+
+.tabmenu li a {color:black; background-color: white}
+
+.titlebox a[href*="oguwr"] {color: orangered}
+
+/* redstonehelper tries css */
+
+/* Make the modqueue waypoint post green & disable approval from r/Minecraft/about/modqueue and r/Minecraft/about/spam with new beptastic code*/
+.id-t3_ozfd3 {background: #7FD485 !important; padding:4px; border-radius:5px;}
+.id-t3_ozfd3  .big-mod-buttons {display:none;}
+.id-t3_ozfd3 a.title {font-size:0pt; color:#7FD485;}
+.id-t3_ozfd3 a.title:visited {font-size:0pt; color:#7FD485 !important;}
+.id-t3_ozfd3 a.title:link {font-size:0pt; color:#7FD485;}
+.id-t3_ozfd3 a.title:after {display:inline; content:"==[SPAM QUEUE WAYPOINT - DON'T TOUCH THIS POST]=="; color:#0000FF !important; font-weight:900; font-size:14pt; font-family:"calibri", "verdana";}
+
+.id-t3_ozfd3  .tagline {display:none;}
+.id-t3_ozfd3  .midcol {display:none;}
+.id-t3_ozfd3  .flat-list {display:none;}
+.id-t3_ozfd3  .domain {display:none;}
+
+
+
+/* Big block 'o' sprites */
+
+.items,a[href="/blank"],a[href="/l_helm"],a[href="/l_chest"],a[href="/l_pants"],a[href="/l_boots"],a[href="/w_sword"],a[href="/w_shovel"],a[href="/w_pick"],a[href="/w_axe"],a[href="/w_hoe"],a[href="/cm_helm"],a[href="/cm_chest"],a[href="/cm_pants"],a[href="/cm_boots"],a[href="/s_sword"],a[href="/s_shovel"],a[href="/s_pick"],a[href="/s_axe"],a[href="/s_hoe"],a[href="/i_helm"],a[href="/i_chest"],a[href="/i_pants"],a[href="/i_boots"],a[href="/i_sword"],a[href="/i_shovel"],a[href="/i_pick"],a[href="/i_axe"],a[href="/i_hoe"],a[href="/d_helm"],a[href="/d_chest"],a[href="/d_pants"],a[href="/d_boots"],a[href="/d_sword"],a[href="/d_shovel"],a[href="/d_pick"],a[href="/d_axe"],a[href="/d_hoe"],a[href="/g_helm"],a[href="/g_chest"],a[href="/g_pants"],a[href="/g_boots"],a[href="/g_sword"],a[href="/g_shovel"],a[href="/g_pick"],a[href="/g_axe"],a[href="/g_hoe"],a[href="/flint_steel"],a[href="/bow"],a[href="/arrow"],a[href="/stick"],a[href="/fish_pole"],a[href="/fish_pole2"],a[href="/bow_arrow"],a[href="/bow_arrow2"],a[href="/bow_arrow3"],a[href="/flint"],a[href="/brick"],a[href="/quiver"],a[href="/compass"],a[href="/watch"],a[href="/repeater"],a[href="/coal"],a[href="/i_ignot"],a[href="/g_ignot"],a[href="/diamond"],a[href="/bowl"],a[href="/pork"],a[href="/leather"],a[href="/minecart"],a[href="/s_minecart"],a[href="/f_minecart"],a[href="/string"],a[href="/feather"],a[href="/gunpowder"],a[href="/redstone"],a[href="/s_bowl"],a[href="/c_pork"],a[href="/saddle"],a[href="/boat"],a[href="/seeds"],a[href="/wheat"],a[href="/bread"],a[href="/clay"],a[href="/gs_dust"],a[href="/fish"],a[href="/beef"],a[href="/r_chicken"],a[href="/g_melon"],a[href="/apple"],a[href="/painting"],a[href="/sign"],a[href="/paper"],a[href="/bucket"],a[href="/c_fish"],a[href="/steak"],a[href="/c_chicken"],a[href="/f_s_eye"],a[href="/g_apple"],a[href="/sugarcane"],a[href="/w_door"],a[href="/book"],a[href="/w_bucket"],a[href="/r_flesh"],a[href="/e_pearl"],a[href="/g_tear"],a[href="/s_eye"],a[href="/e_eye"],a[href="/egg"],a[href="/bone"],a[href="/i_door"],a[href="/map"],a[href="/l_bucket"],a[href="/cookie"],a[href="/b_rod"],a[href="/g_nugget"],a[href="/bottle"],a[href="/cauldron"],a[href="/b_stand"],a[href="/sugar"],a[href="/cake"],a[href="/bed"],a[href="/p_seeds"],a[href="/m_bucket"],a[href="/shears"],a[href="/melon_s"],a[href="/n_wart"],a[href="/b_powder"],a[href="/m_cream"],a[href="/snowball"],a[href="/slimeball"],a[href="/fireball"],a[href="/m_seeds"],a[href="/ink_sac"],a[href="/r_red"],a[href="/c_green"],a[href="/cocoa_b"],a[href="/lapis"],a[href="/pu_dye"],a[href="/c_dye"],a[href="/lg_dye"],a[href="/g_dye"],a[href="/pi_dye"],a[href="/l_dye"],a[href="/d_yellow"],a[href="/lb_dye"],a[href="/m_dye"],a[href="/o_dye"],a[href="/bonemeal"],a[href="/m_13"],a[href="/m_cat"],a[href="/m_blocks"],a[href="/m_chirp"],a[href="/m_far"],a[href="/m_mall"],a[href="/m_mellohi"],a[href="/m_stal"],a[href="/m_strad"],a[href="/m_ward"],a[href="/m_11"]{width:16px;height:16px;content:" ";background-image:url(%%items%%);display:inline-block}.usertext-body a{display:inline-block}a[href="/blank"]{background-position:0px -144px}a[href="/l_helm"]{background-position:0px 0px}a[href="/l_chest"]{background-position:0px -16px}a[href="/l_pants"]{background-position:0px -32px}a[href="/l_boots"]{background-position:0px -48px}a[href="/w_sword"]{background-position:0px -64px}a[href="/w_shovel"]{background-position:0px -80px}a[href="/w_pick"]{background-position:0px -96px}a[href="/w_axe"]{background-position:0px -112px}a[href="/w_hoe"]{background-position:0px -128px}a[href="/cm_helm"]{background-position:-16px 0px}a[href="/cm_chest"]{background-position:-16px -16px}a[href="/cm_pants"]{background-position:-16px -32px}a[href="/cm_boots"]{background-position:-16px -48px}a[href="/s_sword"]{background-position:-16px -64px}a[href="/s_shovel"]{background-position:-16px -80px}a[href="/s_pick"]{background-position:-16px -96px}a[href="/s_axe"]{background-position:-16px -112px}a[href="/s_hoe"]{background-position:-16px -128px}a[href="/i_helm"]{background-position:-32px 0px}a[href="/i_chest"]{background-position:-32px -16px}a[href="/i_pants"]{background-position:-32px -32px}a[href="/i_boots"]{background-position:-32px -48px}a[href="/i_sword"]{background-position:-32px -64px}a[href="/i_shovel"]{background-position:-32px -80px}a[href="/i_pick"]{background-position:-32px -96px}a[href="/i_axe"]{background-position:-32px -112px}a[href="/i_hoe"]{background-position:-32px -128px}a[href="/d_helm"]{background-position:-48px 0px}a[href="/d_chest"]{background-position:-48px -16px}a[href="/d_pants"]{background-position:-48px -32px}a[href="/d_boots"]{background-position:-48px -48px}a[href="/d_sword"]{background-position:-48px -64px}a[href="/d_shovel"]{background-position:-48px -80px}a[href="/d_pick"]{background-position:-48px -96px}a[href="/d_axe"]{background-position:-48px -112px}a[href="/d_hoe"]{background-position:-48px -128px}a[href="/g_helm"]{background-position:-64px 0px}a[href="/g_chest"]{background-position:-64px -16px}a[href="/g_pants"]{background-position:-64px -32px}a[href="/g_boots"]{background-position:-64px -48px}a[href="/g_sword"]{background-position:-64px -64px}a[href="/g_shovel"]{background-position:-64px -80px}a[href="/g_pick"]{background-position:-64px -96px}a[href="/g_axe"]{background-position:-64px -112px}a[href="/g_hoe"]{background-position:-64px -128px}a[href="/flint_steel"]{background-position:-80px 0px}a[href="/bow"]{background-position:-80px -16px}a[href="/arrow"]{background-position:-80px -32px}a[href="/stick"]{background-position:-80px -48px}a[href="/fish_pole"]{background-position:-80px -64px}a[href="/fish_pole2"]{background-position:-80px -80px}a[href="/bow_arrow"]{background-position:-80px -96px}a[href="/bow_arrow2"]{background-position:-80px -112px}a[href="/bow_arrow3"]{background-position:-80px -128px}a[href="/flint"]{background-position:-96px 0px}a[href="/brick"]{background-position:-96px -16px}a[href="/quiver"]{background-position:-96px -32px}a[href="/compass"]{background-position:-96px -48px}a[href="/watch"]{background-position:-96px -64px}a[href="/repeater"]{background-position:-96px -80px}a[href="/coal"]{background-position:-112px 0px}a[href="/i_ignot"]{background-position:-112px -16px}a[href="/g_ignot"]{background-position:-112px -32px}a[href="/diamond"]{background-position:-112px -48px}a[href="/bowl"]{background-position:-112px -64px}a[href="/pork"]{background-position:-112px -80px}a[href="/leather"]{background-position:-112px -96px}a[href="/minecart"]{background-position:-112px -128px}a[href="/s_minecart"]{background-position:-112px -144px}a[href="/f_minecart"]{background-position:-112px -160px}a[href="/string"]{background-position:-128px 0px}a[href="/feather"]{background-position:-128px -16px}a[href="/gunpowder"]{background-position:-128px -32px}a[href="/redstone"]{background-position:-128px -48px}a[href="/s_bowl"]{background-position:-128px -64px}a[href="/c_pork"]{background-position:-128px -80px}a[href="/saddle"]{background-position:-128px -96px}a[href="/boat"]{background-position:-128px -128px}a[href="/seeds"]{background-position:-144px 0px}a[href="/wheat"]{background-position:-144px -16px}a[href="/bread"]{background-position:-144px -32px}a[href="/clay"]{background-position:-144px -48px}a[href="/gs_dust"]{background-position:-144px -64px}a[href="/fish"]{background-position:-144px -80px}a[href="/beef"]{background-position:-144px -96px}a[href="/r_chicken"]{background-position:-144px -112px}a[href="/g_melon"]{background-position:-144px -128px}a[href="/apple"]{background-position:-160px 0px}a[href="/painting"]{background-position:-160px -16px}a[href="/sign"]{background-position:-160px -32px}a[href="/paper"]{background-position:-160px -48px}a[href="/bucket"]{background-position:-160px -64px}a[href="/c_fish"]{background-position:-160px -80px}a[href="/steak"]{background-position:-160px -96px}a[href="/c_chicken"]{background-position:-160px -112px}a[href="/f_s_eye"]{background-position:-160px -128px}a[href="/g_apple"]{background-position:-176px 0px}a[href="/sugarcane"]{background-position:-176px -16px}a[href="/w_door"]{background-position:-176px -32px}a[href="/book"]{background-position:-176px -48px}a[href="/w_bucket"]{background-position:-176px -64px}a[href="/r_flesh"]{background-position:-176px -80px}a[href="/e_pearl"]{background-position:-176px -96px}a[href="/g_tear"]{background-position:-176px -112px}a[href="/s_eye"]{background-position:-176px -128px}a[href="/e_eye"]{background-position:-176px -144px}a[href="/egg"]{background-position:-192px 0px}a[href="/bone"]{background-position:-192px -16px}a[href="/i_door"]{background-position:-192px -32px}a[href="/map"]{background-position:-192px -48px}a[href="/l_bucket"]{background-position:-192px -64px}a[href="/cookie"]{background-position:-192px -80px}a[href="/b_rod"]{background-position:-192px -96px}a[href="/g_nugget"]{background-position:-192px -112px}a[href="/bottle"]{background-position:-192px -128px}a[href="/cauldron"]{background-position:-192px -144px}a[href="/b_stand"]{background-position:-192px -160px}a[href="/sugar"]{background-position:-208px 0px}a[href="/cake"]{background-position:-208px -16px}a[href="/bed"]{background-position:-208px -32px}a[href="/p_seeds"]{background-position:-208px -48px}a[href="/m_bucket"]{background-position:-208px -64px}a[href="/shears"]{background-position:-208px -80px}a[href="/melon_s"]{background-position:-208px -96px}a[href="/n_wart"]{background-position:-208px -112px}a[href="/b_powder"]{background-position:-208px -144px}a[href="/m_cream"]{background-position:-208px -160px}a[href="/snowball"]{background-position:-224px 0px}a[href="/slimeball"]{background-position:-224px -16px}a[href="/fireball"]{background-position:-224px -32px}a[href="/m_seeds"]{background-position:-224px -48px}a[href="/ink_sac"]{background-position:-224px -64px}a[href="/r_red"]{background-position:-224px -80px}a[href="/c_green"]{background-position:-224px -96px}a[href="/cocoa_b"]{background-position:-224px -112px}a[href="/lapis"]{background-position:-224px -128px}a[href="/pu_dye"]{background-position:-224px -144px}a[href="/c_dye"]{background-position:-224px -160px}a[href="/lg_dye"]{background-position:-224px -176px}a[href="/g_dye"]{background-position:-224px -64px}a[href="/pi_dye"]{background-position:-240px -80px}a[href="/l_dye"]{background-position:-240px -96px}a[href="/d_yellow"]{background-position:-240px -112px}a[href="/lb_dye"]{background-position:-240px -128px}a[href="/m_dye"]{background-position:-240px -144px}a[href="/o_dye"]{background-position:-240px -160px}a[href="/bonemeal"]{background-position:-240px -176px}a[href="/m_13"]{background-position:0px -240px}a[href="/m_cat"]{background-position:-16px -240px}a[href="/m_blocks"]{background-position:-32px -240px}a[href="/m_chirp"]{background-position:-48px -240px}a[href="/m_far"]{background-position:-64px -240px}a[href="/m_mall"]{background-position:-80px -240px}a[href="/m_mellohi"]{background-position:-96px -240px}a[href="/m_stal"]{background-position:-112px -240px}a[href="/m_strad"]{background-position:-128px -240px}a[href="/m_ward"]{background-position:-144px -240px}a[href="/m_11"]{background-position:-160px -240px}
+

@@ -1,0 +1,187 @@
+.mobs {
+    width: 16px;
+    height: 16px;
+    content: " ";
+    background-image: url(%%flair%%);
+    display: inline-block;
+    cursor: default;
+}
+.usertext-body a {
+    display: inline-block;
+}
+@mixin pos($x: 0, $y: 0) {
+    background-position: #{- $x + px} #{- $y + px};
+}
+
+a[href="/blaze"] {
+    @extend .mobs;
+    @include pos(0, 0);
+}
+a[href="/cavespider"] {
+    @extend .mobs;
+    @include pos(0, 16)
+}
+a[href="/chicken"] {
+    @extend .mobs;
+    @include pos(0, 32)
+}
+a[href="/cow"] {
+    @extend .mobs;
+    @include pos(0, 48)
+}
+a[href="/creeper"] {
+    @extend .mobs;
+    @include pos(0, 64)
+}
+a[href="/enderdragon"] {
+    @extend .mobs;
+    @include pos(0, 80)
+}
+a[href="/enderman"] {
+    @extend .mobs;
+    @include pos(0, 96)
+}
+a[href="/ghast"] {
+    @extend .mobs;
+    @include pos(0, 112)
+}
+a[href="/steve"] {
+    @extend .mobs;
+    @include pos(0, 128)
+}
+a[href="/magmacube"] {
+    @extend .mobs;
+    @include pos(0, 144)
+}
+a[href="/mooshroom"] {
+    @extend .mobs;
+    @include pos(0, 160)
+}
+a[href="/pig"] {
+    @extend .mobs;
+    @include pos(0, 176)
+}
+a[href="/sheep"] {
+    @extend .mobs;
+    @include pos(0, 192)
+}
+a[href="/silverfish"] {
+    @extend .mobs;
+    @include pos(0, 208)
+}
+a[href="/skeleton"] {
+    @extend .mobs;
+    @include pos(0, 224)
+}
+a[href="/slime"] {
+    @extend .mobs;
+    @include pos(0, 240)
+}
+a[href="/snowgolem"] {
+    @extend .mobs;
+    @include pos(0, 256)
+}
+a[href="/spider"] {
+    @extend .mobs;
+    @include pos(0, 272)
+}
+a[href="/squid"] {
+    @extend .mobs;
+    @include pos(0, 288)
+}
+a[href="/testificate"] {
+    @extend .mobs;
+    @include pos(0, 304)
+}
+a[href="/wolf"] {
+    @extend .mobs;
+    @include pos(0, 320)
+}
+a[href="/zombie"] {
+    @extend .mobs;
+    @include pos(0, 336)
+}
+a[href="/zombiepigman"] {
+    @extend .mobs;
+    @include pos(0, 352)
+}
+a[href="/sheep_lightgray"] {
+    @extend .mobs;
+    @include pos(0 , 384)
+}
+a[href="/sheep_gray"] {
+    @extend .mobs;
+    @include pos(0, 400)
+}
+a[href="/sheep_black"] {
+    @extend .mobs;
+    @include pos(0, 416)
+}
+a[href="/sheep_brown"] {
+    @extend .mobs;
+    @include pos(0, 432)
+}
+a[href="/sheep_pink"] {
+    @extend .mobs;
+    @include pos(0, 448)
+}
+a[href="/sheep_red"] {
+    @extend .mobs;
+    @include pos(0, 464)
+}
+a[href="/sheep_orange"] {
+    @extend .mobs;
+    @include pos(0, 480)
+}
+a[href="/sheep_yellow"] {
+    @extend .mobs;
+    @include pos(0, 496)
+}
+a[href="/sheep_lime"] {
+    @extend .mobs;
+    @include pos(0, 512)
+}
+a[href="/sheep_green"] {
+    @extend .mobs;
+    @include pos(0, 528)
+}
+a[href="/sheep_lightblue"] {
+    @extend .mobs;
+    @include pos(0, 544)
+}
+a[href="/sheep_cyan"] {
+    @extend .mobs;
+    @include pos(0, 560)
+}
+a[href="/sheep_blue"] {
+    @extend .mobs;
+    @include pos(0, 576)
+}
+a[href="/sheep_purple"] {
+    @extend .mobs;
+    @include pos(0, 592)
+}
+a[href="/sheep_magenta"] {
+    @extend .mobs;
+    @include pos(0, 608)
+}
+a[href="/ozelot"] {
+    @extend .mobs;
+    @include pos(0, 624)
+}
+a[href="/cat_siamese"] {
+    @extend .mobs;
+    @include pos(0, 640)
+}
+a[href="/cat_red"] {
+    @extend .mobs;
+    @include pos(0, 656)
+}
+a[href="/cat_black"] {
+    @extend .mobs;
+    @include pos(0, 672)
+}
+a[href="/iron_golem"] {
+    @extend .mobs;
+    @include pos(0, 752)
+}

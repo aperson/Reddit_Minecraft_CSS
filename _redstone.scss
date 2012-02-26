@@ -1,0 +1,681 @@
+.redstone {
+    width: 16px;
+    height: 16px;
+    content: "";
+    background-image: url(%%redstone%%);
+    display: inline-block;
+    cursor: default;
+    }
+    
+@mixin pos($x: 0, $y: 0) {
+    background-position: #{- $x + px} #{- $y + px};
+}
+    
+a[href="/crossoff"] {
+    @extend .redstone;
+    @include pos(0, 0);
+    }
+a[href="/leftrightoff"] {
+    @extend .redstone;
+    @include pos(16, 0);
+    }
+a[href="/updownoff"] {
+    @extend .redstone;
+    @include pos(32, 0);
+    }
+a[href="/leftrightdownoff"] {
+    @extend .redstone;
+    @include pos(48, 0);
+    }
+a[href="/updownleftoff"] {
+    @extend .redstone;
+    @include pos(64, 0);
+    }
+a[href="/leftrightupoff"] {
+    @extend .redstone;
+    @include pos(80, 0);
+    }
+a[href="/updownrightoff"] {
+    @extend .redstone;
+    @include pos(96, 0);
+    }
+a[href="/crosson"] {
+    @extend .redstone;
+    @include pos(112, 0);
+    }
+a[href="/leftrighton"] {
+    @extend .redstone;
+    @include pos(128, 0);
+    }
+a[href="/updownon"] {
+    @extend .redstone;
+    @include pos(144, 0);
+    }
+a[href="/leftrightdownon"] {
+    @extend .redstone;
+    @include pos(160, 0);
+    }
+a[href="/updownlefton"] {
+    @extend .redstone;
+    @include pos(176, 0);
+    }
+a[href="/leftrightupon"] {
+    @extend .redstone;
+    @include pos(192, 0);
+    }
+a[href="/updownrighton"] {
+    @extend .redstone;
+    @include pos(208, 0);
+    }
+a[href="/belowcrossoff"] {
+    @extend .redstone;
+    @include pos(224, 0);
+    }
+a[href="/belowleftrightoff"] {
+    @extend .redstone;
+    @include pos(240, 0);
+    }
+a[href="/belowupdownoff"] {
+    @extend .redstone;
+    @include pos(256, 0);
+    }
+a[href="/belowleftrightdownoff"] {
+    @extend .redstone;
+    @include pos(272, 0);
+    }
+a[href="/belowupdownleftoff"] {
+    @extend .redstone;
+    @include pos(288, 0);
+    }
+a[href="/belowleftrightupoff"] {
+    @extend .redstone;
+    @include pos(304, 0);
+    }
+a[href="/belowupdownrightoff"] {
+    @extend .redstone;
+    @include pos(320, 0);
+    }
+a[href="/belowcrosson"] {
+    @extend .redstone;
+    @include pos(336, 0);
+    }
+a[href="/belowleftrighton"] {
+    @extend .redstone;
+    @include pos(352, 0);
+    }
+a[href="/belowupdownon"] {
+    @extend .redstone;
+    @include pos(368, 0);
+    }
+a[href="/belowleftrightdownon"] {
+    @extend .redstone;
+    @include pos(384, 0);
+    }
+a[href="/belowupdownlefton"] {
+    @extend .redstone;
+    @include pos(400, 0);
+    }
+a[href="/belowleftrightupon"] {
+    @extend .redstone;
+    @include pos(416, 0);
+    }
+a[href="/belowupdownrighton"] {
+    @extend .redstone;
+    @include pos(432, 0);
+    }
+a[href="/abovecrossoff"] {
+    @extend .redstone;
+    @include pos(448, 0);
+    }
+a[href="/aboveleftrightoff"] {
+    @extend .redstone;
+    @include pos(464, 0);
+    }
+a[href="/aboveupdownoff"] {
+    @extend .redstone;
+    @include pos(480, 0);
+    }
+a[href="/aboveleftrightdownoff"] {
+    @extend .redstone;
+    @include pos(496, 0);
+    }
+a[href="/aboveupdownleftoff"] {
+    @extend .redstone;
+    @include pos(512, 0);
+    }
+a[href="/aboveleftrightupoff"] {
+    @extend .redstone;
+    @include pos(528, 0);
+    }
+a[href="/aboveupdownrightoff"] {
+    @extend .redstone;
+    @include pos(544, 0);
+    }
+a[href="/abovecrosson"] {
+    @extend .redstone;
+    @include pos(560, 0);
+    }
+a[href="/aboveleftrighton"] {
+    @extend .redstone;
+    @include pos(576, 0);
+    }
+a[href="/aboveupdownon"] {
+    @extend .redstone;
+    @include pos(592, 0);
+    }
+a[href="/aboveleftrightdownon"] {
+    @extend .redstone;
+    @include pos(608, 0);
+    }
+a[href="/aboveupdownlefton"] {
+    @extend .redstone;
+    @include pos(624, 0);
+    }
+a[href="/aboveleftrightupon"] {
+    @extend .redstone;
+    @include pos(640, 0);
+    }
+a[href="/aboveupdownrighton"] {
+    @extend .redstone;
+    @include pos(656, 0);
+    }
+a[href="/adcrossoff"] {
+    @extend .redstone;
+    @include pos(672, 0);
+    }
+a[href="/adleftrightoff"] {
+    @extend .redstone;
+    @include pos(688, 0);
+    }
+a[href="/adupdownoff"] {
+    @extend .redstone;
+    @include pos(704, 0);
+    }
+a[href="/adleftrightdownoff"] {
+    @extend .redstone;
+    @include pos(720, 0);
+    }
+a[href="/adupdownleftoff"] {
+    @extend .redstone;
+    @include pos(736, 0);
+    }
+a[href="/adleftrightupoff"] {
+    @extend .redstone;
+    @include pos(752, 0);
+    }
+a[href="/adupdownrightoff"] {
+    @extend .redstone;
+    @include pos(768, 0);
+    }
+a[href="/adcrosson"] {
+    @extend .redstone;
+    @include pos(784, 0);
+    }
+a[href="/adleftrighton"] {
+    @extend .redstone;
+    @include pos(800, 0);
+    }
+a[href="/adupdownon"] {
+    @extend .redstone;
+    @include pos(816, 0);
+    }
+a[href="/adleftrightdownon"] {
+    @extend .redstone;
+    @include pos(832, 0);
+    }
+a[href="/adupdownlefton"] {
+    @extend .redstone;
+    @include pos(848, 0);
+    }
+a[href="/adleftrightupon"] {
+    @extend .redstone;
+    @include pos(864, 0);
+    }
+a[href="/adupdownrighton"] {
+    @extend .redstone;
+    @include pos(880, 0);
+    }
+a[href="/uptorchoff"] {
+    @extend .redstone;
+    @include pos(0, 16);
+    }
+a[href="/righttorchoff"] {
+    @extend .redstone;
+    @include pos(16, 16);
+    }
+a[href="/downtorchoff"] {
+    @extend .redstone;
+    @include pos(32, 16);
+    }
+a[href="/lefttorchoff"] {
+    @extend .redstone;
+    @include pos(48, 16);
+    }
+a[href="/uptorchon"] {
+    @extend .redstone;
+    @include pos(64, 16);
+    }
+a[href="/righttorchon"] {
+    @extend .redstone;
+    @include pos(80, 16);
+    }
+a[href="/downtorchon"] {
+    @extend .redstone;
+    @include pos(96, 16);
+    }
+a[href="/lefttorchon"] {
+    @extend .redstone;
+    @include pos(112, 16);
+    }
+a[href="/belowuptorchoff"] {
+    @extend .redstone;
+    @include pos(128, 16);
+    }
+a[href="/belowrighttorchoff"] {
+    @extend .redstone;
+    @include pos(144, 16);
+    }
+a[href="/belowdowntorchoff"] {
+    @extend .redstone;
+    @include pos(160, 16);
+    }
+a[href="/belowlefttorchoff"] {
+    @extend .redstone;
+    @include pos(176, 16);
+    }
+a[href="/belowuptorchon"] {
+    @extend .redstone;
+    @include pos(192, 16);
+    }
+a[href="/belowrighttorchon"] {
+    @extend .redstone;
+    @include pos(208, 16);
+    }
+a[href="/belowdowntorchon"] {
+    @extend .redstone;
+    @include pos(224, 16);
+    }
+a[href="/belowlefttorchon"] {
+    @extend .redstone;
+    @include pos(240, 16);
+    }
+a[href="/aboveuptorchon"] {
+    @extend .redstone;
+    @include pos(256, 16);
+    }
+a[href="/aboverighttorchon"] {
+    @extend .redstone;
+    @include pos(272, 16);
+    }
+a[href="/abovedowntorchon"] {
+    @extend .redstone;
+    @include pos(288, 16);
+    }
+a[href="/abovelefttorchon"] {
+    @extend .redstone;
+    @include pos(304, 16);
+    }
+a[href="/aboveuptorchoff"] {
+    @extend .redstone;
+    @include pos(320, 16);
+    }
+a[href="/aboverighttorchoff"] {
+    @extend .redstone;
+    @include pos(336, 16);
+    }
+a[href="/abovedowntorchoff"] {
+    @extend .redstone;
+    @include pos(352, 16);
+    }
+a[href="/abovelefttorchoff"] {
+    @extend .redstone;
+    @include pos(368, 16);
+    }
+a[href="/aduptorchoff"] {
+    @extend .redstone;
+    @include pos(384, 16);
+    }
+a[href="/adrighttorchoff"] {
+    @extend .redstone;
+    @include pos(400, 16);
+    }
+a[href="/addowntorchoff"] {
+    @extend .redstone;
+    @include pos(416, 16);
+    }
+a[href="/adlefttorchoff"] {
+    @extend .redstone;
+    @include pos(432, 16);
+    }
+a[href="/aduptorchon"] {
+    @extend .redstone;
+    @include pos(448, 16);
+    }
+a[href="/adrighttorchon"] {
+    @extend .redstone;
+    @include pos(464, 16);
+    }
+a[href="/addowntorchon"] {
+    @extend .redstone;
+    @include pos(480, 16);
+    }
+a[href="/adlefttorchon"] {
+    @extend .redstone;
+    @include pos(496, 16);
+    }
+a[href="/blankborder"] {
+    @extend .redstone;
+    @include pos(512, 16);
+    }
+a[href="/aboveblankborder"] {
+    @extend .redstone;
+    @include pos(528, 16);
+    }
+a[href="/belowblankborder"] {
+    @extend .redstone;
+    @include pos(544, 16);
+    }
+a[href="/adblankborder"] {
+    @extend .redstone;
+    @include pos(560, 16);
+    }
+a[href="/abovetorchoff"] {
+    @extend .redstone;
+    @include pos(576, 16);
+    }
+a[href="/abovetorchon"] {
+    @extend .redstone;
+    @include pos(592, 16);
+    }
+a[href="/torchoff"] {
+    @extend .redstone;
+    @include pos(608, 16);
+    }
+a[href="/torchon"] {
+    @extend .redstone;
+    @include pos(624, 16);
+    }
+a[href="/belowtorchoff"] {
+    @extend .redstone;
+    @include pos(640, 16);
+    }
+a[href="/belowtorchon"] {
+    @extend .redstone;
+    @include pos(656, 16);
+    }
+a[href="/adtorchoff"] {
+    @extend .redstone;
+    @include pos(672, 16);
+    }
+a[href="/adtorchon"] {
+    @extend .redstone;
+    @include pos(688, 16);
+    }
+a[href="/leftdownoff"] {
+    @extend .redstone;
+    @include pos(0, 32);
+    }
+a[href="/leftupoff"] {
+    @extend .redstone;
+    @include pos(16, 32);
+    }
+a[href="/uprightoff"] {
+    @extend .redstone;
+    @include pos(32, 32);
+    }
+a[href="/downrightoff"] {
+    @extend .redstone;
+    @include pos(48, 32);
+    }
+a[href="/leftdownon"] {
+    @extend .redstone;
+    @include pos(64, 32);
+    }
+a[href="/leftupon"] {
+    @extend .redstone;
+    @include pos(80, 32);
+    }
+a[href="/uprighton"] {
+    @extend .redstone;
+    @include pos(96, 32);
+    }
+a[href="/downrighton"] {
+    @extend .redstone;
+    @include pos(112, 32);
+    }
+a[href="/belowleftdownoff"] {
+    @extend .redstone;
+    @include pos(128, 32);
+    }
+a[href="/belowleftupoff"] {
+    @extend .redstone;
+    @include pos(144, 32);
+    }
+a[href="/belowuprightoff"] {
+    @extend .redstone;
+    @include pos(160, 32);
+    }
+a[href="/belowdownrightoff"] {
+    @extend .redstone;
+    @include pos(176, 32);
+    }
+a[href="/belowleftdownon"] {
+    @extend .redstone;
+    @include pos(192, 32);
+    }
+a[href="/belowleftupon"] {
+    @extend .redstone;
+    @include pos(208, 32);
+    }
+a[href="/belowuprighton"] {
+    @extend .redstone;
+    @include pos(224, 32);
+    }
+a[href="/belowdownrighton"] {
+    @extend .redstone;
+    @include pos(240, 32);
+    }
+a[href="/aboveleftdownoff"] {
+    @extend .redstone;
+    @include pos(256, 32);
+    }
+a[href="/aboveleftupoff"] {
+    @extend .redstone;
+    @include pos(272, 32);
+    }
+a[href="/aboveuprightoff"] {
+    @extend .redstone;
+    @include pos(288, 32);
+    }
+a[href="/abovedownrightoff"] {
+    @extend .redstone;
+    @include pos(304, 32);
+    }
+a[href="/aboveleftdownon"] {
+    @extend .redstone;
+    @include pos(320, 32);
+    }
+a[href="/aboveleftupon"] {
+    @extend .redstone;
+    @include pos(336, 32);
+    }
+a[href="/aboveuprighton"] {
+    @extend .redstone;
+    @include pos(352, 32);
+    }
+a[href="/abovedownrighton"] {
+    @extend .redstone;
+    @include pos(368, 32);
+    }
+a[href="/adleftdownoff"] {
+    @extend .redstone;
+    @include pos(384, 32);
+    }
+a[href="/adleftupoff"] {
+    @extend .redstone;
+    @include pos(400, 32);
+    }
+a[href="/aduprightoff"] {
+    @extend .redstone;
+    @include pos(416, 32);
+    }
+a[href="/addownrightoff"] {
+    @extend .redstone;
+    @include pos(432, 32);
+    }
+a[href="/adleftdownon"] {
+    @extend .redstone;
+    @include pos(448, 32);
+    }
+a[href="/adleftupon"] {
+    @extend .redstone;
+    @include pos(464, 32);
+    }
+a[href="/aduprighton"] {
+    @extend .redstone;
+    @include pos(480, 32);
+    }
+a[href="/addownrighton"] {
+    @extend .redstone;
+    @include pos(496, 32);
+    }
+a[href="/vark"] {
+    @extend .redstone;
+    @include pos(512, 32);
+    }
+a[href="/varj"] {
+    @extend .redstone;
+    @include pos(528, 32);
+    }
+a[href="/varq"] {
+    @extend .redstone;
+    @include pos(544, 32);
+    }
+a[href="/vara"] {
+    @extend .redstone;
+    @include pos(560, 32);
+    }
+a[href="/varb"] {
+    @extend .redstone;
+    @include pos(576, 32);
+    }
+a[href="/varc"] {
+    @extend .redstone;
+    @include pos(592, 32);
+    }
+a[href="/vard"] {
+    @extend .redstone;
+    @include pos(608, 32);
+    }
+a[href="/repeaterup1"] {
+    @extend .redstone;
+    @include pos(640, 32);
+    }
+a[href="/repeaterup2"] {
+    @extend .redstone;
+    @include pos(656, 32);
+    }
+a[href="/repeaterup3"] {
+    @extend .redstone;
+    @include pos(672, 32);
+    }
+a[href="/repeaterup4"] {
+    @extend .redstone;
+    @include pos(688, 32);
+    }
+a[href="/repeaterright1"] {
+    @extend .redstone;
+    @include pos(704, 32);
+    }
+a[href="/repeaterright2"] {
+    @extend .redstone;
+    @include pos(720, 32);
+    }
+a[href="/repeaterright3"] {
+    @extend .redstone;
+    @include pos(736, 32);
+    }
+a[href="/repeaterright4"] {
+    @extend .redstone;
+    @include pos(752, 32);
+    }
+a[href="/repeaterdown1"] {
+    @extend .redstone;
+    @include pos(768, 32);
+    }
+a[href="/repeaterdown2"] {
+    @extend .redstone;
+    @include pos(784, 32);
+    }
+a[href="/repeaterdown3"] {
+    @extend .redstone;
+    @include pos(800, 32);
+    }
+a[href="/repeaterdown4"] {
+    @extend .redstone;
+    @include pos(816, 32);
+    }
+a[href="/repeaterleft1"] {
+    @extend .redstone;
+    @include pos(832, 32);
+    }
+a[href="/repeaterleft2"] {
+    @extend .redstone;
+    @include pos(848, 32);
+    }
+a[href="/repeaterleft3"] {
+    @extend .redstone;
+    @include pos(864, 32);
+    }
+a[href="/repeaterleft4"] {
+    @extend .redstone;
+    @include pos(880, 32);
+    }
+a[href="/pistonup"] {
+    @extend .redstone;
+    @include pos(704, 16);
+    }
+a[href="/pistonright"] {
+    @extend .redstone;
+    @include pos(720, 16);
+    }
+a[href="/pistondown"] {
+    @extend .redstone;
+    @include pos(736, 16);
+    }
+a[href="/pistonleft"] {
+    @extend .redstone;
+    @include pos(752, 16);
+    }
+a[href="/stickypistonup"] {
+    @extend .redstone;
+    @include pos(768, 16);
+    }
+a[href="/stickypistonright"] {
+    @extend .redstone;
+    @include pos(784, 16);
+    }
+a[href="/stickypistondown"] {
+    @extend .redstone;
+    @include pos(800, 16);
+    }
+a[href="/stickypistonleft"] {
+    @extend .redstone;
+    @include pos(816, 16);
+    }
+a[href="/stickypistonfaceup"] {
+    @extend .redstone;
+    @include pos(832, 16);
+    }
+a[href="/pistonfaceup"] {
+    @extend .redstone;
+    @include pos(848, 16);
+    }
+a[href="/pistonfacedown"] {
+    @extend .redstone;
+    @include pos(864, 16);
+    }
+a[href="/stickypistonfacedown"] {
+    @extend .redstone;
+    @include pos(880, 16);
+}

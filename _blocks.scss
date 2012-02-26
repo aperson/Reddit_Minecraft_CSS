@@ -1,0 +1,831 @@
+.blocks {
+    width: 16px;
+    height: 16px;
+    content: " ";
+    background-image: url(%%terrain%%);
+    display: inline-block;
+    cursor: default;
+}
+
+.slabs {
+    height: 8px;
+}
+
+.slabstop {
+    margin-bottom: 8px;
+}
+
+.usertext-body a {
+    display: inline-block;
+}
+
+@mixin pos($x: 0, $y: 0) {
+    background-position: #{- $x + px} #{- $y + px};
+}
+
+a[href="/blank"] {
+    @extend .blocks;
+    @include pos(0, 0);
+}
+a[href="/stone"] {
+    @extend .blocks;
+    @include pos(16, 0);
+}
+a[href="/dirt"] {
+    @extend .blocks;
+    @include pos(32, 0);
+}
+a[href="/grass_side"] {
+    @extend .blocks;
+    @include pos(48, 0);
+}
+a[href="/plank"] {
+    @extend .blocks;
+    @include pos(64, 0);
+}
+a[href="/slab"] {
+    @extend .blocks;
+    @include pos(80, 0);
+}
+a[href="/slab_top"] {
+    @extend .blocks;
+    @include pos(96, 0);
+}
+a[href="/brick_block"] {
+    @extend .blocks;
+    @include pos(112, 0);
+}
+a[href="/tnt_side"] {
+    @extend .blocks;
+    @include pos(128, 0);
+}
+a[href="/tnt_top"] {
+    @extend .blocks;
+    @include pos(144, 0);
+}
+a[href="/tnt_bottom"] {
+    @extend .blocks;
+    @include pos(160, 0);
+}
+a[href="/cobweb"] {
+    @extend .blocks;
+    @include pos(176, 0);
+}
+a[href="/rose"] {
+    @extend .blocks;
+    @include pos(192, 0);
+}
+a[href="/flower"] {
+    @extend .blocks;
+    @include pos(208, 0);
+}
+a[href="/sapling_oak"] {
+    @extend .blocks;
+    @include pos(240, 0);
+}
+a[href="/cobblestone"] {
+    @extend .blocks;
+    @include pos(0, 16);
+}
+a[href="/bedrock"] {
+    @extend .blocks;
+    @include pos(16, 16);
+}
+a[href="/sand"] {
+    @extend .blocks;
+    @include pos(32, 16);
+}
+a[href="/gravel"] {
+    @extend .blocks;
+    @include pos(48, 16);
+}
+a[href="/log_oak"] {
+    @extend .blocks;
+    @include pos(64, 16);
+}
+a[href="/log_top"] {
+    @extend .blocks;
+    @include pos(80, 16);
+}
+a[href="/block_iron"] {
+    @extend .blocks;
+    @include pos(96, 16);
+}
+a[href="/block_gold"] {
+    @extend .blocks;
+    @include pos(112, 16);
+}
+a[href="/block_diamond"] {
+    @extend .blocks;
+    @include pos(128, 16);
+}
+a[href="/chest_single_top"] {
+    @extend .blocks;
+    @include pos(144, 16);
+}
+a[href="/chest_single_side"] {
+    @extend .blocks;
+    @include pos(160, 16);
+}
+a[href="/chest_single_front"] {
+    @extend .blocks;
+    @include pos(176, 16);
+}
+a[href="/mushroom_r"] {
+    @extend .blocks;
+    @include pos(192, 16);
+}
+a[href="/mushroom_b"] {
+    @extend .blocks;
+    @include pos(208, 16);
+}
+a[href="/sapling_jungle"] {
+    @extend .blocks;
+    @include pos(224, 16);
+}
+a[href="/ore_gold"] {
+    @extend .blocks;
+    @include pos(0, 32);
+}
+a[href="/ore_iron"] {
+    @extend .blocks;
+    @include pos(16, 32);
+}
+a[href="/ore_coal"] {
+    @extend .blocks;
+    @include pos(32, 32);
+}
+a[href="/bookshelf"] {
+    @extend .blocks;
+    @include pos(48, 32);
+}
+a[href="/moss_stone"] {
+    @extend .blocks;
+    @include pos(64, 32);
+}
+a[href="/obsidian"] {
+    @extend .blocks;
+    @include pos(80, 32);
+}
+a[href="/grass_tall"] {
+    @extend .blocks;
+    @include pos(112, 32);
+}
+a[href="/grass_top"] {
+    @extend .blocks;
+    @include pos(128, 32);
+}
+a[href="/chest_double_left"] {
+    @extend .blocks;
+    @include pos(144, 32);
+}
+a[href="/chest_double_right"] {
+    @extend .blocks;
+    @include pos(160, 32);
+}
+a[href="/crafting_table_top"] {
+    @extend .blocks;
+    @include pos(176, 32);
+}
+a[href="/furnace_unlit_front"] {
+    @extend .blocks;
+    @include pos(192, 32);
+}
+a[href="/furnace_side"] {
+    @extend .blocks;
+    @include pos(208, 32);
+}
+a[href="/dispenser"] {
+    @extend .blocks;
+    @include pos(224, 32);
+}
+a[href="/sponge"] {
+    @extend .blocks;
+    @include pos(0, 48);
+}
+a[href="/glass"] {
+    @extend .blocks;
+    @include pos(16, 48);
+}
+a[href="/ore_diamond"] {
+    @extend .blocks;
+    @include pos(32, 48);
+}
+a[href="/ore_redstone"] {
+    @extend .blocks;
+    @include pos(48, 48);
+}
+a[href="/leaves"] {
+    @extend .blocks;
+    @include pos(64, 48);
+}
+a[href="/stone_brick"] {
+    @extend .blocks;
+    @include pos(96, 48);
+}
+a[href="/dead_bush"] {
+    @extend .blocks;
+    @include pos(112, 48);
+}
+a[href="/fern"] {
+    @extend .blocks;
+    @include pos(128, 48);
+}
+a[href="/chest_double_back_left"] {
+    @extend .blocks;
+    @include pos(144, 48);
+}
+a[href="/chest_double_back_right"] {
+    @extend .blocks;
+    @include pos(160, 48);
+}
+a[href="/crafting_table_side1"] {
+    @extend .blocks;
+    @include pos(176, 48);
+}
+a[href="/crafting_table_side2"] {
+    @extend .blocks;
+    @include pos(192, 48);
+}
+a[href="/furnace_lit_front"] {
+    @extend .blocks;
+    @include pos(208, 48);
+}
+a[href="/furnace_top"] {
+    @extend .blocks;
+    @include pos(224, 48);
+}
+a[href="/sapling_pine"] {
+    @extend .blocks;
+    @include pos(240, 48);
+}
+a[href="/wool_white"] {
+    @extend .blocks;
+    @include pos(0, 64);
+}
+a[href="/monster_spawner"] {
+    @extend .blocks;
+    @include pos(16, 64);
+}
+a[href="/snow"] {
+    @extend .blocks;
+    @include pos(32, 64);
+}
+a[href="/ice"] {
+    @extend .blocks;
+    @include pos(48, 64);
+}
+a[href="/grass_side_snow"] {
+    @extend .blocks;
+    @include pos(64, 64);
+}
+a[href="/cactus_top"] {
+    @extend .blocks;
+    @include pos(80, 64);
+}
+a[href="/cactus_side"] {
+    @extend .blocks;
+    @include pos(96, 64);
+}
+a[href="/cactus_bottom"] {
+    @extend .blocks;
+    @include pos(112, 64);
+}
+a[href="/clay_block"] {
+    @extend .blocks;
+    @include pos(128, 64);
+}
+a[href="/sugarcane_block"] {
+    @extend .blocks;
+    @include pos(144, 64);
+}
+a[href="/jukebox_side"] {
+    @extend .blocks;
+    @include pos(160, 64);
+}
+a[href="/jukebox_top"] {
+    @extend .blocks;
+    @include pos(176, 64);
+}
+a[href="/lilypad"] {
+    @extend .blocks;
+    @include pos(192, 64);
+}
+a[href="/mycelium_side"] {
+    @extend .blocks;
+    @include pos(208, 64);
+}
+a[href="/mycelium_top"] {
+    @extend .blocks;
+    @include pos(224, 64);
+}
+a[href="/sapling_birch"] {
+    @extend .blocks;
+    @include pos(240, 64);
+}
+a[href="/torch"] {
+    @extend .blocks;
+    @include pos(0, 80);
+}
+a[href="/door_wood_top"] {
+    @extend .blocks;
+    @include pos(16, 80);
+}
+a[href="/door_iron_top"] {
+    @extend .blocks;
+    @include pos(32, 80);
+}
+a[href="/ladder"] {
+    @extend .blocks;
+    @include pos(48, 80);
+}
+a[href="/trapdoor"] {
+    @extend .blocks;
+    @include pos(64, 80);
+}
+a[href="/iron_bar"] {
+    @extend .blocks;
+    @include pos(80, 80);
+}
+a[href="/farmland_wet"] {
+    @extend .blocks;
+    @include pos(96, 80);
+}
+a[href="/farmland_dry"] {
+    @extend .blocks;
+    @include pos(112, 80);
+}
+a[href="/wheat_0"] {
+    @extend .blocks;
+    @include pos(128, 80);
+}
+a[href="/wheat_1"] {
+    @extend .blocks;
+    @include pos(144, 80);
+}
+a[href="/wheat_2"] {
+    @extend .blocks;
+    @include pos(160, 80);
+}
+a[href="/wheat_3"] {
+    @extend .blocks;
+    @include pos(176, 80);
+}
+a[href="/wheat_4"] {
+    @extend .blocks;
+    @include pos(192, 80);
+}
+a[href="/wheat_5"] {
+    @extend .blocks;
+    @include pos(208, 80);
+}
+a[href="/wheat_6"] {
+    @extend .blocks;
+    @include pos(224, 80);
+}
+a[href="/wheat_7"] {
+    @extend .blocks;
+    @include pos(240, 80);
+}
+a[href="/lever"] {
+    @extend .blocks;
+    @include pos(0, 96);
+}
+a[href="/door_wood_bottom"] {
+    @extend .blocks;
+    @include pos(16, 96);
+}
+a[href="/door_iron_bottom"] {
+    @extend .blocks;
+    @include pos(32, 96);
+}
+a[href="/redstone_torch_on"] {
+    @extend .blocks;
+    @include pos(48, 96);
+}
+a[href="/stone_brick_mossy"] {
+    @extend .blocks;
+    @include pos(64, 96);
+}
+a[href="/stone_brick_cracked"] {
+    @extend .blocks;
+    @include pos(80, 96);
+}
+a[href="/pumpkin_top"] {
+    @extend .blocks;
+    @include pos(96, 96);
+}
+a[href="/netherrack"] {
+    @extend .blocks;
+    @include pos(112, 96);
+}
+a[href="/soulsand"] {
+    @extend .blocks;
+    @include pos(128, 96);
+}
+a[href="/glowstone"] {
+    @extend .blocks;
+    @include pos(144, 96);
+}
+a[href="/piston_head_sticky"] {
+    @extend .blocks;
+    @include pos(160, 96);
+}
+a[href="/piston_head_normal"] {
+    @extend .blocks;
+    @include pos(176, 96);
+}
+a[href="/piston_side"] {
+    @extend .blocks;
+    @include pos(192, 96);
+}
+a[href="/piston_bottom"] {
+    @extend .blocks;
+    @include pos(208, 96);
+}
+a[href="/stem_ungrown"] {
+    @extend .blocks;
+    @include pos(240, 96);
+}
+a[href="/rail_bent"] {
+    @extend .blocks;
+    @include pos(0, 112);
+}
+a[href="/wool_black"] {
+    @extend .blocks;
+    @include pos(16, 112);
+}
+a[href="/wool_dark_gray"] {
+    @extend .blocks;
+    @include pos(32, 112);
+}
+a[href="/redstone_torch_off"] {
+    @extend .blocks;
+    @include pos(48, 112);
+}
+a[href="/log_pine"] {
+    @extend .blocks;
+    @include pos(64, 112);
+}
+a[href="/log_birch"] {
+    @extend .blocks;
+    @include pos(80, 112);
+}
+a[href="/pumpkin_side"] {
+    @extend .blocks;
+    @include pos(96, 112);
+}
+a[href="/pumpkin_front_unlit"] {
+    @extend .blocks;
+    @include pos(112, 112);
+}
+a[href="/pumpkin_front_lit"] {
+    @extend .blocks;
+    @include pos(128, 112);
+}
+a[href="/cake_top"] {
+    @extend .blocks;
+    @include pos(144, 112);
+}
+a[href="/cake_side_full"] {
+    @extend .blocks;
+    @include pos(160, 112);
+}
+a[href="/cake_side_bitten"] {
+    @extend .blocks;
+    @include pos(176, 112);
+}
+a[href="/cake_bottom"] {
+    @extend .blocks;
+    @include pos(192, 112);
+}
+a[href="/mushroom_block_red"] {
+    @extend .blocks;
+    @include pos(208, 112);
+}
+a[href="/mushroom_block_brown"] {
+    @extend .blocks;
+    @include pos(224, 112);
+}
+a[href="/stem_grown"] {
+    @extend .blocks;
+    @include pos(240, 112);
+}
+a[href="/rail"] {
+    @extend .blocks;
+    @include pos(0, 128);
+}
+a[href="/wool_red"] {
+    @extend .blocks;
+    @include pos(16, 128);
+}
+a[href="/wool_pink"] {
+    @extend .blocks;
+    @include pos(32, 128);
+}
+a[href="/leaves_pine"] {
+    @extend .blocks;
+    @include pos(64, 128);
+}
+a[href="/bed_top_left"] {
+    @extend .blocks;
+    @include pos(96, 128);
+}
+a[href="/bed_top_right"] {
+    @extend .blocks;
+    @include pos(112, 128);
+}
+a[href="/melon_side"] {
+    @extend .blocks;
+    @include pos(128, 128);
+}
+a[href="/melon_top"] {
+    @extend .blocks;
+    @include pos(144, 128);
+}
+a[href="/cauldron_top"] {
+    @extend .blocks;
+    @include pos(160, 128);
+}
+a[href="/mushroom_block_stalk"] {
+    @extend .blocks;
+    @include pos(208, 128);
+}
+a[href="/mushroom_block_pores"] {
+    @extend .blocks;
+    @include pos(224, 128);
+}
+a[href="/vines"] {
+    @extend .blocks;
+    @include pos(240, 128);
+}
+a[href="/block_lapis"] {
+    @extend .blocks;
+    @include pos(0, 144);
+}
+a[href="/wool_green"] {
+    @extend .blocks;
+    @include pos(16, 144);
+}
+a[href="/wool_lime"] {
+    @extend .blocks;
+    @include pos(32, 144);
+}
+a[href="/glass_pane"] {
+    @extend .blocks;
+    @include pos(64, 144);
+}
+a[href="/bed_end_left"] {
+    @extend .blocks;
+    @include pos(80, 144);
+}
+a[href="/bed_side_left"] {
+    @extend .blocks;
+    @include pos(96, 144);
+}
+a[href="/bed_side_right"] {
+    @extend .blocks;
+    @include pos(112, 144);
+}
+a[href="/bed_end_right"] {
+    @extend .blocks;
+    @include pos(128, 144);
+}
+a[href="/log_jungle"] {
+    @extend .blocks;
+    @include pos(144, 144);
+}
+a[href="/cauldron_side"] {
+    @extend .blocks;
+    @include pos(160, 144);
+}
+a[href="/cauldron_bottom"] {
+    @extend .blocks;
+    @include pos(176, 144);
+}
+a[href="/brewing_stand_top"] {
+    @extend .blocks;
+    @include pos(192, 144);
+}
+a[href="/brewing_stand_side"] {
+    @extend .blocks;
+    @include pos(208, 144);
+}
+a[href="/end_portal_top_empty"] {
+    @extend .blocks;
+    @include pos(224, 144);
+}
+a[href="/end_portal_side_filled"] {
+    @extend .blocks;
+    @include pos(240, 144);
+}
+a[href="/ore_lapis"] {
+    @extend .blocks;
+    @include pos(0, 160);
+}
+a[href="/wool_brown"] {
+    @extend .blocks;
+    @include pos(16, 160);
+}
+a[href="/wool_yellow"] {
+    @extend .blocks;
+    @include pos(32, 160);
+}
+a[href="/rail_powered_off"] {
+    @extend .blocks;
+    @include pos(48, 160);
+}
+a[href="/enchantment_table_top"] {
+    @extend .blocks;
+    @include pos(96, 160);
+}
+a[href="/end_portal_top_filled"] {
+    @extend .blocks;
+    @include pos(224, 160);
+}
+a[href="/endstone"] {
+    @extend .blocks;
+    @include pos(240, 160);
+}
+a[href="/sandstone_top"] {
+    @extend .blocks;
+    @include pos(0, 176);
+}
+a[href="/wool_blue"] {
+    @extend .blocks;
+    @include pos(16, 176);
+}
+a[href="/wool_light_blue"] {
+    @extend .blocks;
+    @include pos(32, 176);
+}
+a[href="/rail_powered_on"] {
+    @extend .blocks;
+    @include pos(48, 176);
+}
+a[href="/enchantment_table_side"] {
+    @extend .blocks;
+    @include pos(96, 176);
+}
+a[href="/enchantment_table_bottom"] {
+    @extend .blocks;
+    @include pos(112, 176);
+}
+a[href="/sandstone_side"] {
+    @extend .blocks;
+    @include pos(0, 192);
+}
+a[href="/wool_purple"] {
+    @extend .blocks;
+    @include pos(16, 192);
+}
+a[href="/wool_magenta"] {
+    @extend .blocks;
+    @include pos(32, 192);
+}
+a[href="/rail_detector"] {
+    @extend .blocks;
+    @include pos(48, 192);
+}
+a[href="/leaves_jungle"] {
+    @extend .blocks;
+    @include pos(64, 192);
+}
+a[href="/sandstone_bottom"] {
+    @extend .blocks;
+    @include pos(0, 208);
+}
+a[href="/wool_cyan"] {
+    @extend .blocks;
+    @include pos(16, 208);
+}
+a[href="/wool_orange"] {
+    @extend .blocks;
+    @include pos(32, 208);
+}
+a[href="/redstone_lamp_off"] {
+    @extend .blocks;
+    @include pos(48, 208);
+}
+a[href="/redstone_lamp_on"] {
+    @extend .blocks;
+    @include pos(64, 208);
+}
+a[href="/netherbrick"] {
+    @extend .blocks;
+    @include pos(0, 224);
+}
+a[href="/wool_light_gray"] {
+    @extend .blocks;
+    @include pos(16, 224);
+}
+a[href="/nether_wart_0"] {
+    @extend .blocks;
+    @include pos(32, 224);
+}
+a[href="/nether_wart_1"] {
+    @extend .blocks;
+    @include pos(48, 224);
+}
+a[href="/nether_wart_2"] {
+    @extend .blocks;
+    @include pos(64, 224);
+}
+
+a[href="/hoverlight0"] {
+    @extend .blocks;
+    @include pos(48, 208);
+}
+a[href="/hoverlight0"]:hover {
+    @include pos(64, 208);
+}
+
+a[href="/hoverlight1"] {
+    @extend .blocks;
+    @include pos(112, 112);
+}
+a[href="/hoverlight1"]:hover {
+    @include pos(128, 112);
+}
+
+a[href="/hoverlight2"] {
+    @extend .blocks;
+    @include pos(192, 32);
+}
+a[href="/hoverlight2"]:hover {
+    @include pos(208, 48);
+}
+
+a[href="/half_slab_stone_bottom"] {
+    @extend .slabs;
+    @extend .blocks;
+    @include pos(80, 8);
+}
+a[href="/half_slab_sandstone_bottom"] {
+    @extend .slabs;
+    @extend .blocks;
+    @include pos(0, 200);
+}
+a[href="/half_slab_plank_bottom"] {
+    @extend .slabs;
+    @extend .blocks;
+    @include pos(64, 8);
+}
+a[href="/half_slab_cobblestone_bottom"] {
+    @extend .slabs;
+    @extend .blocks;
+    @include pos(0, 24);
+}
+a[href="/half_slab_brick_bottom"] {
+    @extend .slabs;
+    @extend .blocks;
+    @include pos(112, 8);
+}
+a[href="/half_slab_stone_brick_bottom"] {
+    @extend .slabs;
+    @extend .blocks;
+    @include pos(96, 56);
+}
+
+a[href="/half_slab_stone_top"] {
+    @extend .slabs;
+    @extend .slabstop;
+    @extend .blocks;
+    @include pos(80, 0);
+}
+a[href="/half_slab_sandstone_top"] {
+    @extend .slabs;
+    @extend .slabstop;
+    @extend .blocks;
+    @include pos(0, 192);
+}
+a[href="/half_slab_plank_top"] {
+    @extend .slabs;
+    @extend .slabstop;
+    @extend .blocks;
+    @include pos(64, 0);
+}
+a[href="/half_slab_cobblestone_top"] {
+    @extend .slabs;
+    @extend .slabstop;
+    @extend .blocks;
+    @include pos(0, 16);
+}
+a[href="/half_slab_brick_top"] {
+    @extend .slabs;
+    @extend .slabstop;
+    @extend .blocks;
+    @include pos(112, 0);
+}
+a[href="/half_slab_stone_brick_top"] {
+    @extend .slabs;
+    @extend .slabstop;
+    @extend .blocks;
+    @include pos(96, 48);
+}
+
+a[href="/end_portal_side_empty"] {
+    @extend .blocks;
+    @include pos(240, 147);
+    height: 13px;
+}
