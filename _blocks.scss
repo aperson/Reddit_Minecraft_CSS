@@ -829,3 +829,8 @@ a[href="/end_portal_side_empty"] {
     @include pos(240, 147);
     height: 13px;
 }
+a[href="/spawner_overlay"] {
+    @extend .blocks;
+    @include pos(16, 64);
+    margin-left: -16px;
+}
