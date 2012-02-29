@@ -1,0 +1,100 @@
+/* All of our RES compatibility stuffs */
+
+#srList {
+    background-color: #454545 !important;
+    color: white !important;
+}
+#srList a {
+    color: white !important;
+}
+#srList tr:hover {
+    background-color: #333333 !important;
+}
+.sortAsc {
+    background-position: 0px -149px !important;
+}
+#srDropdownContainer {
+    margin-left: 5px;
+}
+#RESSubredditGroupDropdown {
+    background-color: #454545 !important;
+}
+#RESSubredditGroupDropdown li a {
+    color: white !important;
+}
+#RESSubredditGroupDropdown li:hover {
+    background-color: #333333 !important;
+}
+#RESPrefsDropdown li {
+    color: white !important;
+    border-top: 1px solid black;
+    border-bottom: none !important;
+}
+#RESPrefsDropdown ul {
+    border: 1px solid black !important;
+    border-top: none !important;
+    background-color: #454545 !important;
+    margin-top: 0px !important;
+}
+#RESPrefsDropdown li:hover {
+    background-color: #787878 !important;
+}
+.gearIcon {
+    background-color: #454545;
+}
+#RESMainGearOverlay {
+    background-color: #454545 !important;
+    border: 1px solid black !important;
+    border-bottom: 1px solid #454545 !important;
+    height: 20px !important;
+}
+#RESPrefsDropdown li:first-child {
+    border-top: none !important;
+}
+#DashboardLink a {
+    color: white !important;
+}
+#DashboardLink a:hover {
+    background-color: #787878 !important;
+}
+#RESShortcutsEditContainer,#RESShortcutsRight,#RESShortcutsLeft,#RESShortcutsTrash,#RESShortcutsAdd {
+    background-color: #333333 !important;
+    height: 18px !important;
+}
+#RESShortcutsEditContainer {
+    border-left: 1px solid black !important;
+    border-right: 5px solid #333333;
+    width: 52px !important;
+}
+#RESShortcutsTrash {
+   margin-right: 1px;
+}
+#accountSwitcherMenu {
+    background-color: #454545 !important;
+    margin-top: 6px;
+    margin-left: 4px !important;
+    padding: 0px !important;
+}
+#accountSwitcherMenu li  {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+.accountName:first-child {
+    border-top: 1px solid black !important;
+}
+.accountName {
+    border: 1px solid black !important;
+    border-top: none !important;
+    color: white !important;
+    padding: 2px !important;
+}
+#accountSwitcherMenu li:hover, #RESSubredditGroupDropdown li:hover {
+    background-color: #787878 !important;
+}
+div#RESSubredditGroupDropdown {
+    padding: 0px;
+    margin-left: -4px;
+}
+div#RESSubredditGroupDropdown ul li {
+    margin: 0px;
+}
