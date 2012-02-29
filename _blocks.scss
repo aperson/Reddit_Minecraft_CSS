@@ -834,3 +834,7 @@ a[href="/spawner_overlay"] {
     @include pos(16, 64);
     margin-left: -16px;
 }
+a[href="/stone_brick_greek"] {
+    @extend .blocks;
+    @include pos(80, 208);
+}
