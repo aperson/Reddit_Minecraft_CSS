@@ -185,3 +185,15 @@ a[href="/iron_golem"] {
     @extend .mobs;
     @include pos(0, 752)
 }
+
+// These aren't mobs, but they use the same image and we secretly
+// want these in our sprite codes.
+
+a[href="/mojang"] {
+    @extend .mobs;
+    @include pos(0, 368)
+}
+a[href="/rftw"] {
+    @extend .mobs;
+    @include pos(0, 688)
+}
