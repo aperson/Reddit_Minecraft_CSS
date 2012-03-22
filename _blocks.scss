@@ -838,3 +838,24 @@ a[href="/stone_brick_greek"] {
     @extend .blocks;
     @include pos(80, 208);
 }
+
+a[href="/sandstone_side_1"] {
+    @extend .blocks;
+    @include pos(80, 224);
+}
+a[href="/sandstone_side_2"] {
+    @extend .blocks;
+    @include pos(96, 224);
+}
+a[href="/plank_1"] {
+    @extend .blocks;
+    @include pos(96, 192);
+}
+a[href="/plank_2"] {
+    @extend .blocks;
+    @include pos(112, 192);
+}
+a[href="/plank_3"] {
+    @extend .blocks;
+    @include pos(96, 208);
+}
