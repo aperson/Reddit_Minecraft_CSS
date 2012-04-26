@@ -664,3 +664,11 @@ a[href="/bottle_enchanting"] {
     @extend .items;
     @include pos(176, 160);
 }
+a[href="/book_quill"] {
+    @extend .items;
+    @include pos(176, 176);
+}
+a[href="/book_written"] {
+    @extend .items;
+    @include pos(192, 176);
+}
