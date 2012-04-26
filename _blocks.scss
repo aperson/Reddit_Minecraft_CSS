@@ -859,3 +859,37 @@ a[href="/plank_3"] {
     @extend .blocks;
     @include pos(96, 208);
 }
+
+a[href="/half_slab_plank_1_top"] {
+    @extend .slabs;
+    @extend .slabstop;
+    @extend .blocks;
+    @include pos(96, 192);
+}
+a[href="/half_slab_plank_1_bottom"] {
+    @extend .slabs;
+    @extend .blocks;
+    @include pos(96, 200);
+}
+a[href="/half_slab_plank_2_top"] {
+    @extend .slabs;
+    @extend .slabstop;
+    @extend .blocks;
+    @include pos(112, 192);
+}
+a[href="/half_slab_plank_2_bottom"] {
+    @extend .slabs;
+    @extend .blocks;
+    @include pos(112, 200);
+}
+a[href="/half_slab_plank_3_top"] {
+    @extend .slabs;
+    @extend .slabstop;
+    @extend .blocks;
+    @include pos(96, 208);
+}
+a[href="/half_slab_plank_3_bottom"] {
+    @extend .slabs;
+    @extend .blocks;
+    @include pos(96, 216);
+}
