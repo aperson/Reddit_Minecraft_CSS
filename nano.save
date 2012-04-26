@@ -1,0 +1,40 @@
+ffmpeg \
+-f x11grab \
+-s 960x540 \
+-b 6000 \
+-r 25 \
+-i :0.0+7,59 \
+-f alsa \
+-ac 2 \
+-i pulse \
+-vcodec libx264 \
+-vpre veryfast \
+-deblockalpha 0 \
+-deblockbeta 0 \
+-partitions +parti8x8+parti4x4+partp8x8+partb8x8 \
+-me_method hex \
+-subq 2 \
+-me_range 16 \
+-sc_threshold 40 \
+-qcomp 0.6 \
+-qmin 10 \
+-qdiff 4 \
+-bf 2 \
+-refs 1 \
+-trellis 0 \
+-flags +loop \
+-flags2 +bpyramid \
+-flags2 +mixed_refs \
+-flags 2 +wpred \
+-flags 2 +dct8x8 \
+-bt 10 \
+-i_qfactor 1.41 \
+-b_qfactor 1.25 \
+-g 350 \
+-keyint_min 90 \
+-s 960x540 \
+-acodec libmp3lame \
+-ab 128k \
+-ar 22050 \
+-threads 0 \
+-f flv "rtmp://live.justin.tv/app/live_36247_t1fhOwmq"
