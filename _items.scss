@@ -672,3 +672,7 @@ a[href="/book_written"] {
     @extend .items;
     @include pos(192, 176);
 }
+a[href="/emerald"] {
+    @extend .items;
+    @include pos(160, 176);
+}
