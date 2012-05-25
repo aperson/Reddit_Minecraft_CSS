@@ -119,18 +119,6 @@ a[href="/block_diamond"] {
     @extend .blocks;
     @include pos(128, 16);
 }
-a[href="/chest_single_top"] {
-    @extend .blocks;
-    @include pos(144, 16);
-}
-a[href="/chest_single_side"] {
-    @extend .blocks;
-    @include pos(160, 16);
-}
-a[href="/chest_single_front"] {
-    @extend .blocks;
-    @include pos(176, 16);
-}
 a[href="/mushroom_r"] {
     @extend .blocks;
     @include pos(192, 16);
@@ -174,14 +162,6 @@ a[href="/grass_tall"] {
 a[href="/grass_top"] {
     @extend .blocks;
     @include pos(128, 32);
-}
-a[href="/chest_double_left"] {
-    @extend .blocks;
-    @include pos(144, 32);
-}
-a[href="/chest_double_right"] {
-    @extend .blocks;
-    @include pos(160, 32);
 }
 a[href="/crafting_table_top"] {
     @extend .blocks;
@@ -230,14 +210,6 @@ a[href="/dead_bush"] {
 a[href="/fern"] {
     @extend .blocks;
     @include pos(128, 48);
-}
-a[href="/chest_double_back_left"] {
-    @extend .blocks;
-    @include pos(144, 48);
-}
-a[href="/chest_double_back_right"] {
-    @extend .blocks;
-    @include pos(160, 48);
 }
 a[href="/crafting_table_side1"] {
     @extend .blocks;
@@ -892,4 +864,8 @@ a[href="/half_slab_plank_3_bottom"] {
     @extend .slabs;
     @extend .blocks;
     @include pos(96, 216);
+}
+a[href="/ore_emerald"] {
+    @extend .blocks;;
+    @include pos(192, 160);
 }
