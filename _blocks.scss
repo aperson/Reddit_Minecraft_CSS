@@ -869,3 +869,7 @@ a[href="/ore_emerald"] {
     @extend .blocks;;
     @include pos(176, 160);
 }
+a[href="/block_emerald"] {
+    @extend .blocks;
+    @include pos(144, 16);
+}
