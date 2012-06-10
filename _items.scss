@@ -676,3 +676,7 @@ a[href="/emerald"] {
     @extend .items;
     @include pos(160, 176);
 }
+a[href="/ruby"] {
+    @extend .items;
+    @include pos(160, 160);
+}
