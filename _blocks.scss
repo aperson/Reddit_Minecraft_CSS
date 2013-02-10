@@ -879,6 +879,46 @@ a[href="/wheat_7"] {
   @include pos(240, 80);
 }
 
+a[href="/veggie_0"] {
+  @extend .blocks;
+  @include pos(176, 192);
+}
+
+a[href="/veggie_1"] {
+  @extend .blocks;
+  @include pos(192, 192);
+}
+
+a[href="/veggie_2"] {
+  @extend .blocks;
+  @include pos(208, 192);
+}
+
+a[href="/veggie_potatoe"] {
+  @extend .blocks;
+  @include pos(224, 192);
+}
+
+a[href="/veggie_carrot"] {
+  @extend .blocks;
+  @include pos(240, 192);
+}
+
+a[href="/cocoa_0"] {
+  @extend .blocks;
+  @include pos(128, 192);
+}
+
+a[href="/cocoa_1"] {
+  @extend .blocks;
+  @include pos(144, 192);
+}
+
+a[href="/cocoa_2"] {
+  @extend .blocks;
+  @include pos(160, 192);
+}
+
 a[href="/stem_ungrown"] {
   @extend .blocks;
   @include pos(240, 96);
@@ -1042,6 +1082,16 @@ a[href="/rail_detector"] {
   @include pos(48, 192);
 }
 
+a[href="/rail_activator_on"] {
+  @extend .blocks;
+  @include pos(48, 144);
+}
+
+a[href="/rail_activator_off"] {
+  @extend .blocks;
+  @include pos(48, 128);
+}
+
 /* HOVER SPRITES */
 a[href="/monster_spawner"] {
   @extend .blocks;
@@ -1146,4 +1196,14 @@ a[href="/wire_hook"] {
 a[href="/tripwire"] {
   @extend .blocks;
   @include pos(80, 176);
+}
+
+a[href="/ldetector"] {
+  @extend .blocks;
+  @include pos(160, 48);
+}
+
+a[href="/ldetector_bottom"] {
+  @extend .blocks;
+  @include pos(160, 32);
 }
