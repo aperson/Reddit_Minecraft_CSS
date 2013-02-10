@@ -185,7 +185,22 @@ a[href="/iron_golem"] {
     @extend .mobs;
     @include pos(0, 752)
 }
-
+a[href="/zombievillager"] {
+    @extend .mobs;
+    @include pos(0, 800)
+}
+a[href="/wither"] {
+    @extend .mobs;
+    @include pos(0, 816)
+}
+a[href="/witherskeleton"] {
+    @extend .mobs;
+    @include pos(0, 832)
+}
+a[href="/bat"] {
+    @extend .mobs;
+    @include pos(0, 896)
+}
 // These aren't mobs, but they use the same image and we secretly
 // want these in our sprite codes.
 
