@@ -605,6 +605,16 @@ a[href="/quartz_bottom"] {
   @include pos(224, 176);
 }
 
+a[href="/water"] {
+  @extend .blocks;
+  @include pos(176, 128);
+}
+
+a[href="/lava"] {
+  @extend .blocks;
+  @include pos(192, 128);
+}
+
 /* SLABS */
 a[href="/slab"] {
   @extend .blocks;
@@ -733,17 +743,6 @@ a[href="/half_slab_plank_3_bottom"] {
   @include pos(96, 216);
 }
 
-a[href="/water"] {
-  @extend .slabs;
-  @extend .blocks;
-  @include pos(176, 128);
-}
-
-a[href="/lava"] {
-  @extend .slabs;
-  @extend .blocks;
-  @include pos(192, 128);
-}
 
 /* NATURE */
 a[href="/lilypad"] {
