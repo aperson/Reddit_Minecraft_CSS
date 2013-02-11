@@ -269,6 +269,11 @@ a[href="/ore_redstone"] {
   @include pos(48, 48);
 }
 
+a[href="/block_redstone"] {
+  @extend .blocks;
+  @include pos(160, 16);
+}
+
 a[href="/stone_brick"] {
   @extend .blocks;
   @include pos(96, 48);
