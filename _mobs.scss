@@ -201,6 +201,10 @@ a[href="/bat"] {
     @extend .mobs;
     @include pos(0, 880)
 }
+a[href="/witch"] {
+  @extend .mobs;
+  @include pos(0, 896)
+}
 // These aren't mobs, but they use the same image and we secretly
 // want these in our sprite codes.
 
