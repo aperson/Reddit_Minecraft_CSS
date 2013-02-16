@@ -679,3 +679,43 @@ a[href="/stickypistonfacedown"] {
     @extend .redstone;
     @include pos(880, 16);
 }
+a[href="/comparatorupoff"] {
+  @extend .redstone;
+  @include pos(0, 48);
+}
+a[href="/comparatorrightoff"] {
+  @extend .redstone;
+  @include pos(16, 48);
+}
+a[href="/comparatordownoff"] {
+  @extend .redstone;
+  @include pos(32, 48);
+}
+a[href="/comparatorleftoff"] {
+  @extend .redstone;
+  @include pos(48, 48);
+}
+a[href="/comparatorupon"] {
+  @extend .redstone;
+  @include pos(64, 48);
+}
+a[href="/comparatorrighton"] {
+  @extend .redstone;
+  @include pos(80, 48);
+}
+a[href="/comparatordownon"] {
+  @extend .redstone;
+  @include pos(96, 48);
+}
+a[href="/comparatorlefton"] {
+  @extend .redstone;
+  @include pos(112, 48);
+}
+a[href="/buttonwood"] {
+  @extend .redstone;
+  @include pos(128, 48);
+}
+a[href="/buttonstone"] {
+  @extend .redstone;
+  @include pos(144, 48);
+}
